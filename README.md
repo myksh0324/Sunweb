@@ -1,4 +1,6 @@
-### Sunweb
+# First preparation in kim's LAB 
 
-#MERN
-*MongoDB, 
+### Development Tools Info
+
+* Table Chart
+*

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		SUNHO's LAB Tool_Table
+	</title>
+	<script src="Table.js"></script>
+</head>
+<body>
+	<h1>Study Table</h1>
+	<hr>
+	<div class = "Iden Table">
+		<form action ="index.html" method="post">
+			<table border ="1">
+				<tr>
+					<th colspan="2">Check your Information.</th>					
+				</tr>
+				<tr>
+					<th>
+						<label> ID: </label>
+					</th>
+					<th>
+						<input name ="Input_ID" type="text" placeholder="Write your ID">
+						<button type="button" onclick="alert('OK! you can Use it.')">Double check</button>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label> PW: </label>
+					</th>
+					<th>
+						<input type = "Password" placeholder="Write your Password"> 
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label> Reconfirm PW: </label>
+					</th>
+					<th>
+						<input type = "Password" placeholder="Write your Password"> 
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label>IMAGE:</label>
+					</th>
+					<th>
+						<img id = "Image_Preview" width="100px">
+						<br>
+						<input type ="File" id ="Image_Upload" onchange="PreviewImage();">
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label> NAME: </label>
+					</th>
+					<th>
+						<input type = "text" placeholder="Write your name"> 
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label> E-Mail: </label>
+					</th>
+					<th>
+						<input type = "text" placeholder="Write your E-mail"> 
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label> SEX: </label>
+					</th>
+					<th>
+						MALE <input type = "radio" name ="gender" value = "MALE"> 
+						FEMALE <input type = "radio" name ="gender" value = "FEMALE"> 
+						OTHER <input type = "radio" name ="gender" value = "OTHER"> 
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<label>country</label>
+					</th>
+					<th>
+						<select>
+							<option value = "Korea">Korea</option>
+							<option value = "Korea">USA</option>
+							<option value = "Korea">OTHER</option>
+						</select>
+					</th>
+				</tr>
+				<tr>
+					<th  colspan="2">
+						<input id = "Agree_Check" type = "checkbox">
+						<label>agree to this form</label>
+					</th>
+				</tr>
+			</table>
+			<button type="button">Sign Up</button>
+		</form>
+	</div>
+</body>
+</html>
