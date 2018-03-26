@@ -15,24 +15,24 @@
 * if not, you will install ruby
 * Then, go to terminal
 
-'''sh
+```sh
 $sudo gem install bourbon
-'''
+```
 
 * And then, Go to your specific diretory file that you want use.
 
-'''sh
+```sh
 $bourbon install
-'''
+```
 
 * Finally, Go to your Stylesheet
 
-'''css
+```css
 @import "bourbon/bourbon";
-'''
+```
 
 or use 
 
-'''css
-css @import 'bourbon/bourbon' @import 'other-sass-partials-below'
-'''
+```css
+@import 'bourbon/bourbon' @import 'other-sass-partials-below'
+```
