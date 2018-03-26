@@ -16,13 +16,13 @@
 * Then, go to terminal
 
 ```bash
-$sudo gem install bourbon
+$ sudo gem install bourbon
 ```
 
 * And then, Go to your specific diretory file that you want use.
 
 ```bash
-$bourbon install
+$ bourbon install
 ```
 
 * Finally, Go to your Stylesheet
@@ -36,3 +36,23 @@ $bourbon install
 ```css
 @import 'bourbon/bourbon' @import 'other-sass-partials-below'
 ```
+
+## How to install & setting & use [npm-express-pug-sass](https://www.npmjs.com/package/express)
+
+* Go to emptied folder (I want Create ex01 project.)
+
+```bash
+$ express ex01 -v pug -c sass --git
+$ npm install -g express-generator@4
+$ npm install
+```
+
+* Finish
+* you can see this web
+
+```bash
+$ npm start
+```
+
+* And go to http://localhost:3000
+
