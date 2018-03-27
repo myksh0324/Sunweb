@@ -56,3 +56,37 @@ $ npm start
 
 * And go to http://localhost:3000
 
+### How to install & setting & use [PURe_React.js](https://reactjs.org/docs/add-react-to-a-new-app.html)
+
+```bash
+$ npm install -g create-react-app
+$ create-react-app my-app
+$ cd my-app
+$ npm start
+```
+
+### How to install & setting & use [Add_React_to_an_Exiting_Application](https://reactjs.org/docs/add-react-to-an-existing-app.html)
+
+* I don't know ㅡ,ㅡ
+
+```bash
+
+```
+
+### How to install & setting & use [Add_React_to_an_Exiting_Application_By_CDN](https://reactjs.org/docs/cdn-links.html)
+
+* I don't know ㅡ,ㅡ
+
+### [MERN](https://github.com/Hashnode/mern-starter)
+
+* This is MERN-STATER
+* go to http://localhost:8000
+
+
+
+
+
+
+
+
+
