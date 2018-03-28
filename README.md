@@ -81,7 +81,6 @@ $ npm start
 
 * This is MERN-STATER
 * go to http://localhost:8000
-* 마춘
 
 ### END
 
